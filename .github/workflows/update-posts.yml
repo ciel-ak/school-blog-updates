@@ -1,6 +1,9 @@
 name: Update Blog Posts
 
 on:
+  push:
+    paths:
+      - 'schools.json'
   schedule:
     # 1時間ごとに実行 (UTC時刻)
     - cron: '0 * * * *'
