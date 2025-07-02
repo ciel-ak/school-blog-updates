@@ -1,14 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>小学校ブログ更新情報</title>
+  <title>学校ブログ更新情報</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>小学校ブログ更新情報</h1>
+  <h1>学校ブログ更新情報</h1>
+  <div class="tabs">
+    <button class="tab-button active" data-category="all">すべて</button>
+    <button class="tab-button" data-category="小学校">小学校</button>
+    <button class="tab-button" data-category="中学校">中学校</button>
+    <button class="tab-button" data-category="義務教育学校">義務教育学校</button>
+  </div>
   <div id="posts-container"></div>
   <script src="script.js"></script>
 </body>

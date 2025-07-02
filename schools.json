@@ -1,159 +1,212 @@
-
 [
   {
     "name": "青谷小学校",
-    "feed_url": "https://aoya-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://aoya-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "稲葉山小学校",
-    "feed_url": "https://inaba-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://inaba-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "岩倉小学校",
-    "feed_url": "https://iwakura-e.blogspot.com/feeds/posts/default"
+    "feed_url": "https://iwakura-e.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
    {
     "name": "逢坂小学校",
-    "feed_url": "https://ousaka-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://ousaka-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "面影小学校",
-    "feed_url": "https://omokage-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://omokage-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "賀露小学校",
-    "feed_url": "https://karo-hp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://karo-hp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "河原第一小学校",
-    "feed_url": "https://kawaichinow.blogspot.com/feeds/posts/default"
+    "feed_url": "https://kawaichinow.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "久松小学校",
-    "feed_url": "https://kyusyo-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://kyusyo-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
  {
     "name": "倉田小学校",
-    "feed_url": "https://kurada-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://kurada-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   }, 
   {
     "name": "国府東小学校",
-    "feed_url": "https://kokufue-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://kokufue-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   }, 
   {
     "name": "湖山小学校",
-    "feed_url": "https://koyama-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://koyama-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   }, 
   {
     "name": "湖山西小学校",
-    "feed_url": "https://koyamaw-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://koyamaw-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   }, 
   {
     "name": "西郷小学校",
-    "feed_url": "https://ysaigo-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://ysaigo-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "佐治小学校",
-    "feed_url": "https://saji-e.blogspot.com/feeds/posts/default"
+    "feed_url": "https://saji-e.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "散岐小学校",
-    "feed_url": "https://sanki-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://sanki-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "修立小学校",
-    "feed_url": "https://syuritu-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://syuritu-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "醇風小学校",
-    "feed_url": "https://junpu-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://junpu-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "城北小学校",
-    "feed_url": "https://johoku-e.blogspot.com/feeds/posts/default"
+    "feed_url": "https://johoku-e.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "末恒小学校",
-    "feed_url":"https://suetune-ehp.blogspot.com/feeds/posts/default"
+    "feed_url":"https://suetune-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "世紀小学校",
-    "feed_url": "https://tseiki-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://tseiki-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "遷喬小学校",
-    "feed_url": "https://senkyo-e.blogspot.com/feeds/posts/default"
+    "feed_url": "https://senkyo-e.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "大正小学校",
-    "feed_url": "https://taisyo-e.blogspot.com/feeds/posts/default"
+    "feed_url": "https://taisyo-e.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "津ノ井小学校",
-    "feed_url": "https://tunoi-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://tunoi-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "東郷小学校",
-    "feed_url": "https://ttogo-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://ttogo-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "中ノ郷小学校",
-    "feed_url": "https://nakanogo-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://nakanogo-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "日進小学校",
-    "feed_url": "https://tnissin-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://tnissin-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "浜坂小学校",
-    "feed_url": "https://hamasaka-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://hamasaka-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "浜村小学校",
-    "feed_url": "https://hamamura-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://hamamura-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "富桑小学校",
-    "feed_url": "https://fuso-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://fuso-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "宝木小学校",
-    "feed_url": "https://hogi-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://hogi-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "瑞穂小学校",
-    "feed_url": "https://mizuho-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://mizuho-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "美保小学校",
-    "feed_url": "https://miho-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://miho-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "美保南小学校",
-    "feed_url": "https://mihos-ehp2.blogspot.com/feeds/posts/default"
+    "feed_url": "https://mihos-ehp2.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "宮ノ下小学校",
-    "feed_url": "https://miyano-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://miyano-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "明治小学校",
-    "feed_url": "https://meiji-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://meiji-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
     {
     "name": "明徳小学校",
-    "feed_url": "https://meitoku-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://meitoku-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "用瀬小学校",
-    "feed_url": "https://motigase-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://motigase-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "米里小学校",
-    "feed_url": "https://yonesato-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://yonesato-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
   },
   {
     "name": "若葉台小学校",
-    "feed_url": "https://wakaba-ehp.blogspot.com/feeds/posts/default"
+    "feed_url": "https://wakaba-ehp.blogspot.com/feeds/posts/default",
+    "type": "小学校"
+  },
+  {
+    "name": "鳥取第一中学校",
+    "feed_url": "https://example.com/tottori1-jhs-feed",
+    "type": "中学校"
+  },
+  {
+    "name": "鳥取第二中学校",
+    "feed_url": "https://example.com/tottori2-jhs-feed",
+    "type": "中学校"
+  },
+  {
+    "name": "鳥取義務教育学校",
+    "feed_url": "https://example.com/tottori-k義務教育学校-feed",
+    "type": "義務教育学校"
   }
 ]
