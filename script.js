@@ -69,7 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
       school.textContent = `学校名: ${post.school_name} (${post.type})`; // Display school type
 
       const date = document.createElement('p');
-      date.textContent = `公開日: ${new Date(post.published).toLocaleString('ja-JP')}`;
+      const publishedDate = new Date(post.published);
+      const formattedDate = `${publishedDate.getFullYear()}/${(publishedDate.getMonth() + 1).toString().padStart(2, '0')}/${publishedDate.getDate().toString().padStart(2, '0')} ${publishedDate.getHours().toString().padStart(2, '0')}:${publishedDate.getMinutes().toString().padStart(2, '0')}`;
+      date.textContent = `公開日: ${formattedDate}`;
 
       postElement.appendChild(title);
       postElement.appendChild(school);
