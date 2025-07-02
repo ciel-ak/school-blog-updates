@@ -195,18 +195,83 @@
     "type": "小学校"
   },
   {
-    "name": "鳥取第一中学校",
-    "feed_url": "https://example.com/tottori1-jhs-feed",
+    "name": "青谷中学校",
+    "feed_url": "https://aoya-jhp.blogspot.com/feeds/posts/default",
     "type": "中学校"
   },
   {
-    "name": "鳥取第二中学校",
-    "feed_url": "https://example.com/tottori2-jhs-feed",
+    "name": "河原中学校",
+    "feed_url": "https://kawachutopics.blogspot.com/feeds/posts/default",
     "type": "中学校"
   },
   {
-    "name": "鳥取義務教育学校",
-    "feed_url": "https://example.com/tottori-k義務教育学校-feed",
+    "name": "北中学校",
+    "feed_url": "https://torin-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "国府中学校",
+    "feed_url": "https://kokufu-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "湖東中学校",
+    "feed_url": "https://koto-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+   {
+    "name": "桜ヶ丘中学校",
+    "feed_url": "https://sakura-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "千代南中学校",
+    "feed_url": "https://sendais-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "高草中学校",
+    "feed_url": "https://takakusa-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "中ノ郷中学校",
+    "feed_url": "https://nakanogo-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "西中学校",
+    "feed_url": "https://toriw-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "東中学校",
+    "feed_url": "https://torie-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "南中学校",
+    "feed_url": "https://toris-jhp.blogspot.com/feeds/posts/default",
+    "type": "中学校"
+  },
+  {
+    "name": "江山学園",
+    "feed_url": "https://kozan-hp.blogspot.com/feeds/posts/default",
+    "type": "義務教育学校"
+  },
+  {
+    "name": "湖南学園",
+    "feed_url": "https://konan-hp.blogspot.com/feeds/posts/default",
+    "type": "義務教育学校"
+  },
+  {
+    "name": "鹿野学園",
+    "feed_url": "https://sikano-ryuhp.blogspot.com/feeds/posts/default",
+    "type": "義務教育学校"
+  },
+  {
+    "name": "福部未来学園",
+    "feed_url": "https://fukubemirai-hp.blogspot.com/feeds/posts/default",
     "type": "義務教育学校"
   }
 ]
