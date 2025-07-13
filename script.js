@@ -67,24 +67,37 @@ document.addEventListener('DOMContentLoaded', () => {
       const postElement = document.createElement('div');
       postElement.classList.add('post');
 
-      const title = document.createElement('h2');
-      const link = document.createElement('a');
-      link.href = post.link;
-      link.textContent = post.title;
-      link.target = '_blank'; // Open in new tab
-      title.appendChild(link);
+      const titleElement = document.createElement('h2');
+      const schoolElement = document.createElement('p');
+      const dateElement = document.createElement('p');
 
-      const school = document.createElement('p');
-      school.textContent = `学校名: ${post.school_name} (${post.type})`; // Display school type
-
-      const date = document.createElement('p');
       const publishedDate = new Date(post.published);
       const formattedDate = `${publishedDate.getFullYear()}/${(publishedDate.getMonth() + 1).toString().padStart(2, '0')}/${publishedDate.getDate().toString().padStart(2, '0')} ${publishedDate.getHours().toString().padStart(2, '0')}:${publishedDate.getMinutes().toString().padStart(2, '0')}`;
-      date.textContent = `公開日: ${formattedDate}`;
 
-      postElement.appendChild(title);
-      postElement.appendChild(school);
-      postElement.appendChild(date);
+      schoolElement.textContent = `学校名: ${post.school_name} (${post.type})`; // Display school type
+
+      if (post.title && post.title.trim() !== '') {
+        // Title exists, link on title
+        const titleLink = document.createElement('a');
+        titleLink.href = post.link;
+        titleLink.textContent = post.title;
+        titleLink.target = '_blank';
+        titleElement.appendChild(titleLink);
+
+        dateElement.textContent = `公開日: ${formattedDate}`;
+      } else {
+        // Title is empty, link on date
+        titleElement.textContent = 'タイトルなし'; // Placeholder for empty title
+        const dateLink = document.createElement('a');
+        dateLink.href = post.link;
+        dateLink.textContent = `公開日: ${formattedDate}`;
+        dateLink.target = '_blank';
+        dateElement.appendChild(dateLink);
+      }
+
+      postElement.appendChild(titleElement);
+      postElement.appendChild(schoolElement);
+      postElement.appendChild(dateElement);
 
       container.appendChild(postElement);
     });
