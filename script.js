@@ -102,9 +102,21 @@ document.addEventListener('DOMContentLoaded', () => {
       return; // No pagination needed
     }
 
-    // Previous button
+    // << (First page) button
+    const firstPageButton = document.createElement('button');
+    firstPageButton.textContent = '<<';
+    firstPageButton.classList.add('pagination-button');
+    firstPageButton.disabled = currentPage === 1;
+    firstPageButton.addEventListener('click', () => {
+      currentPage = 1;
+      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      window.scrollTo(0, 0); // Scroll to top
+    });
+    paginationContainer.appendChild(firstPageButton);
+
+    // < (Previous page) button
     const prevButton = document.createElement('button');
-    prevButton.textContent = '前へ';
+    prevButton.textContent = '< ';
     prevButton.classList.add('pagination-button');
     prevButton.disabled = currentPage === 1;
     prevButton.addEventListener('click', () => {
@@ -114,8 +126,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     paginationContainer.appendChild(prevButton);
 
-    // Page numbers
-    for (let i = 1; i <= totalPages; i++) {
+    // Page numbers (max 5 pages visible)
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, currentPage + 2);
+
+    if (endPage - startPage < 4) {
+      if (startPage === 1) {
+        endPage = Math.min(totalPages, 5);
+      } else if (endPage === totalPages) {
+        startPage = Math.max(1, totalPages - 4);
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
       const pageButton = document.createElement('button');
       pageButton.textContent = i;
       pageButton.classList.add('pagination-button');
@@ -130,9 +153,9 @@ document.addEventListener('DOMContentLoaded', () => {
       paginationContainer.appendChild(pageButton);
     }
 
-    // Next button
+    // > (Next page) button
     const nextButton = document.createElement('button');
-    nextButton.textContent = '次へ';
+    nextButton.textContent = ' >';
     nextButton.classList.add('pagination-button');
     nextButton.disabled = currentPage === totalPages;
     nextButton.addEventListener('click', () => {
@@ -141,5 +164,17 @@ document.addEventListener('DOMContentLoaded', () => {
       window.scrollTo(0, 0); // Scroll to top
     });
     paginationContainer.appendChild(nextButton);
+
+    // >> (Last page) button
+    const lastPageButton = document.createElement('button');
+    lastPageButton.textContent = ' >>';
+    lastPageButton.classList.add('pagination-button');
+    lastPageButton.disabled = currentPage === totalPages;
+    lastPageButton.addEventListener('click', () => {
+      currentPage = totalPages;
+      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      window.scrollTo(0, 0); // Scroll to top
+    });
+    paginationContainer.appendChild(lastPageButton);
   }
 });
