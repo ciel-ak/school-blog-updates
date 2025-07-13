@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   let allPosts = [];
   let schoolsData = [];
+  const postsPerPage = 30; // 1ページあたりの記事数
+  let currentPage = 1;
+  let currentCategory = 'all';
 
   // Fetch schools.json first to get school types
   fetch('schools.json')
@@ -20,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       allPosts.sort((a, b) => new Date(b.published) - new Date(a.published));
 
       setupCategoryTabs(allPosts);
-      displayPosts(allPosts, 'all'); // Display all posts initially
+      displayPostsForCategory(allPosts, 'all', currentPage); // Display all posts initially
     })
     .catch(error => {
       console.error('Error fetching data:', error);
@@ -34,13 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
       button.addEventListener('click', () => {
         tabButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
-        const category = button.dataset.category;
-        displayPosts(posts, category);
+        currentCategory = button.dataset.category;
+        currentPage = 1; // Reset to first page on category change
+        displayPostsForCategory(posts, currentCategory, currentPage);
       });
     });
   }
 
-  function displayPosts(posts, category) {
+  function displayPostsForCategory(posts, category, page) {
     const container = document.getElementById('posts-container');
     container.innerHTML = ''; // Clear previous posts
 
@@ -51,10 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (filteredPosts.length === 0) {
       container.innerHTML = '<p>現在、このカテゴリの新しい投稿はありません。</p>';
+      setupPagination(0, 1); // Hide pagination if no posts
       return;
     }
 
-    filteredPosts.forEach(post => {
+    const startIndex = (page - 1) * postsPerPage;
+    const endIndex = startIndex + postsPerPage;
+    const postsToDisplay = filteredPosts.slice(startIndex, endIndex);
+
+    postsToDisplay.forEach(post => {
       const postElement = document.createElement('div');
       postElement.classList.add('post');
 
@@ -79,5 +88,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
       container.appendChild(postElement);
     });
+
+    setupPagination(filteredPosts.length, page);
+  }
+
+  function setupPagination(totalPosts, currentPage) {
+    const paginationContainer = document.getElementById('pagination-container');
+    paginationContainer.innerHTML = ''; // Clear previous pagination
+
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
+
+    if (totalPages <= 1) {
+      return; // No pagination needed
+    }
+
+    // Previous button
+    const prevButton = document.createElement('button');
+    prevButton.textContent = '前へ';
+    prevButton.classList.add('pagination-button');
+    prevButton.disabled = currentPage === 1;
+    prevButton.addEventListener('click', () => {
+      currentPage--;
+      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      window.scrollTo(0, 0); // Scroll to top
+    });
+    paginationContainer.appendChild(prevButton);
+
+    // Page numbers
+    for (let i = 1; i <= totalPages; i++) {
+      const pageButton = document.createElement('button');
+      pageButton.textContent = i;
+      pageButton.classList.add('pagination-button');
+      if (i === currentPage) {
+        pageButton.classList.add('active');
+      }
+      pageButton.addEventListener('click', () => {
+        currentPage = i;
+        displayPostsForCategory(allPosts, currentCategory, currentPage);
+        window.scrollTo(0, 0); // Scroll to top
+      });
+      paginationContainer.appendChild(pageButton);
+    }
+
+    // Next button
+    const nextButton = document.createElement('button');
+    nextButton.textContent = '次へ';
+    nextButton.classList.add('pagination-button');
+    nextButton.disabled = currentPage === totalPages;
+    nextButton.addEventListener('click', () => {
+      currentPage++;
+      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      window.scrollTo(0, 0); // Scroll to top
+    });
+    paginationContainer.appendChild(nextButton);
   }
 });
