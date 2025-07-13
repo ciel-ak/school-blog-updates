@@ -23,16 +23,24 @@ h1 {
 
 .search-container {
   margin-bottom: 20px;
-  text-align: center;
+  display: flex; /* アイコンと入力フィールドを横並びに */
+  align-items: center; /* 垂直方向中央揃え */
+  justify-content: center; /* 水平方向中央揃え */
+}
+
+.search-icon {
+  margin-right: 10px; /* アイコンと入力フィールドの間隔 */
+  color: #555;
+  font-size: 1.2em;
 }
 
 #search-input {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
+  width: 70%; /* 幅を調整 */
+  max-width: 350px; /* 最大幅を調整 */
+  padding: 12px 15px; /* パディングを調整 */
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.1em; /* フォントサイズを調整 */
 }
 
 .tabs {
