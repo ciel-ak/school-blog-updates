@@ -22,9 +22,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
       allPosts.sort((a, b) => new Date(b.published) - new Date(a.published));
 
-      setupCategoryTabs(allPosts);
-      setupSearch(allPosts);
-      displayPostsForCategory(allPosts, 'all', currentPage); // Display all posts initially
+      let currentCategory = 'all';
+  let currentSearchQuery = ''; // Add current search query variable
+
+  // Fetch schools.json first to get school types
+  fetch('schools.json')
+    .then(response => response.json())
+    .then(schools => {
+      schoolsData = schools;
+      return fetch('posts.json');
+    })
+    .then(response => response.json())
+    .then(posts => {
+      // Map school type to each post
+      allPosts = posts.map(post => {
+        const school = schoolsData.find(s => s.name === post.school_name);
+        return { ...post, type: school ? school.type : '不明' };
+      });
+
+      allPosts.sort((a, b) => new Date(b.published) - new Date(a.published));
+
+      setupCategoryTabs(); // Pass allPosts implicitly
+      setupSearch(); // Pass allPosts implicitly
+      displayPostsForCategory(); // Initial display
     })
     .catch(error => {
       console.error('Error fetching data:', error);
@@ -32,29 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
       container.innerHTML = '<p>投稿の読み込み中にエラーが発生しました。</p>';
     });
 
-  function setupSearch(posts) {
+  function setupSearch() {
     const searchInput = document.getElementById('search-input');
     searchInput.addEventListener('input', () => {
-      const query = searchInput.value.toLowerCase();
-      const filteredBySearch = posts.filter(post => 
-        (post.title && post.title.toLowerCase().includes(query)) ||
-        (post.school_name && post.school_name.toLowerCase().includes(query))
-      );
-      // Reset category and page when searching
-      currentCategory = 'all';
-      currentPage = 1;
-      document.querySelectorAll('.tab-button').forEach(btn => {
-        if (btn.dataset.category === 'all') {
-          btn.classList.add('active');
-        } else {
-          btn.classList.remove('active');
-        }
-      });
-      displayPostsForCategory(filteredBySearch, currentCategory, currentPage);
+      currentSearchQuery = searchInput.value.toLowerCase();
+      currentPage = 1; // Reset to first page on search
+      displayPostsForCategory();
     });
   }
 
-  function setupCategoryTabs(posts) {
+  function setupCategoryTabs() {
     const tabButtons = document.querySelectorAll('.tab-button');
     tabButtons.forEach(button => {
       button.addEventListener('click', () => {
@@ -63,29 +70,40 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCategory = button.dataset.category;
         currentPage = 1; // Reset to first page on category change
         document.getElementById('search-input').value = ''; // Clear search on category change
-        displayPostsForCategory(posts, currentCategory, currentPage);
+        currentSearchQuery = ''; // Clear search query state
+        displayPostsForCategory();
       });
     });
   }
 
-  function displayPostsForCategory(posts, category, page) {
+  function displayPostsForCategory() {
     const container = document.getElementById('posts-container');
     container.innerHTML = ''; // Clear previous posts
 
-    let filteredPosts = posts;
-    if (category !== 'all') {
-      filteredPosts = posts.filter(post => post.type === category);
+    let postsToFilter = allPosts;
+
+    // Filter by category first
+    if (currentCategory !== 'all') {
+      postsToFilter = postsToFilter.filter(post => post.type === currentCategory);
     }
 
-    if (filteredPosts.length === 0) {
+    // Then filter by search query
+    if (currentSearchQuery.trim() !== '') {
+      postsToFilter = postsToFilter.filter(post => 
+        (post.title && post.title.toLowerCase().includes(currentSearchQuery)) ||
+        (post.school_name && post.school_name.toLowerCase().includes(currentSearchQuery))
+      );
+    }
+
+    if (postsToFilter.length === 0) {
       container.innerHTML = '<p>現在、このカテゴリの新しい投稿はありません。</p>';
       setupPagination(0, 1); // Hide pagination if no posts
       return;
     }
 
-    const startIndex = (page - 1) * postsPerPage;
+    const startIndex = (currentPage - 1) * postsPerPage;
     const endIndex = startIndex + postsPerPage;
-    const postsToDisplay = filteredPosts.slice(startIndex, endIndex);
+    const postsToDisplay = postsToFilter.slice(startIndex, endIndex);
 
     postsToDisplay.forEach(post => {
       const postElement = document.createElement('div');
@@ -126,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(postElement);
     });
 
-    setupPagination(filteredPosts.length, page);
+    setupPagination(postsToFilter.length, currentPage);
   }
 
   function setupPagination(totalPosts, currentPage) {
@@ -146,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
     firstPageButton.disabled = currentPage === 1;
     firstPageButton.addEventListener('click', () => {
       currentPage = 1;
-      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      displayPostsForCategory();
       window.scrollTo(0, 0); // Scroll to top
     });
     paginationContainer.appendChild(firstPageButton);
@@ -158,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     prevButton.disabled = currentPage === 1;
     prevButton.addEventListener('click', () => {
       currentPage--;
-      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      displayPostsForCategory();
       window.scrollTo(0, 0); // Scroll to top
     });
     paginationContainer.appendChild(prevButton);
@@ -184,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       pageButton.addEventListener('click', () => {
         currentPage = i;
-        displayPostsForCategory(allPosts, currentCategory, currentPage);
+        displayPostsForCategory();
         window.scrollTo(0, 0); // Scroll to top
       });
       paginationContainer.appendChild(pageButton);
@@ -197,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nextButton.disabled = currentPage === totalPages;
     nextButton.addEventListener('click', () => {
       currentPage++;
-      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      displayPostsForCategory();
       window.scrollTo(0, 0); // Scroll to top
     });
     paginationContainer.appendChild(nextButton);
@@ -209,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
     lastPageButton.disabled = currentPage === totalPages;
     lastPageButton.addEventListener('click', () => {
       currentPage = totalPages;
-      displayPostsForCategory(allPosts, currentCategory, currentPage);
+      displayPostsForCategory();
       window.scrollTo(0, 0); // Scroll to top
     });
     paginationContainer.appendChild(lastPageButton);
