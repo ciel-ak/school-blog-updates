@@ -1,7 +1,7 @@
 body {
   font-family: 'Noto Sans JP', sans-serif; /* フォントを調整 */
   margin: 0;
-  background-color: #f4f4f4; /* 全体の背景色 */
+  background-color: #80FFF2; /* 全体の背景色 */
   display: flex;
   flex-direction: column;
   align-items: center;
