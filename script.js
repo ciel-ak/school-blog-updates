@@ -1,5 +1,3 @@
-// Last modified: 2025-07-01 10:00 AM - Forced update for pagination fix.
-
 document.addEventListener('DOMContentLoaded', () => {
   let allPosts = [];
   let schoolsData = [];
