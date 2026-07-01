@@ -1,5 +1,47 @@
 [
   {
+    "school_name": "湖山小学校",
+    "title": "５年生船上山宿泊学習①",
+    "link": "https://koyama-ehp.blogspot.com/2026/07/blog-post.html",
+    "published": "2026-07-01T00:10:38+0000"
+  },
+  {
+    "school_name": "鹿野学園",
+    "title": "",
+    "link": "https://sikano-ryuhp.blogspot.com/2026/07/blog-post.html",
+    "published": "2026-07-01T00:02:43+0000"
+  },
+  {
+    "school_name": "美保小学校",
+    "title": "修学旅行（２日目）",
+    "link": "https://miho-ehp.blogspot.com/2026/07/blog-post_177.html",
+    "published": "2026-06-30T23:50:17+0000"
+  },
+  {
+    "school_name": "美保小学校",
+    "title": "修学旅行（１日目）",
+    "link": "https://miho-ehp.blogspot.com/2026/07/blog-post_01.html",
+    "published": "2026-06-30T23:47:05+0000"
+  },
+  {
+    "school_name": "美保小学校",
+    "title": "結団式（６年）",
+    "link": "https://miho-ehp.blogspot.com/2026/07/blog-post.html",
+    "published": "2026-06-30T23:44:32+0000"
+  },
+  {
+    "school_name": "河原中学校",
+    "title": "第1回学校運営協議会が行われました",
+    "link": "https://kawachutopics.blogspot.com/2026/07/1.html",
+    "published": "2026-06-30T23:25:24+0000"
+  },
+  {
+    "school_name": "面影小学校",
+    "title": "",
+    "link": "https://omokage-ehp.blogspot.com/2026/07/blog-post.html",
+    "published": "2026-06-30T22:39:54+0000"
+  },
+  {
     "school_name": "青谷小学校",
     "title": "朝の読み聞かせ",
     "link": "https://aoya-ehp.blogspot.com/2026/06/blog-post_30.html",
@@ -118,6 +160,12 @@
     "title": "「さつき保育園」の年長さんと交流しました",
     "link": "https://kokufue-ehp.blogspot.com/2026/06/blog-post_30.html",
     "published": "2026-06-30T03:15:20+0000"
+  },
+  {
+    "school_name": "米里小学校",
+    "title": "１年　生活　よねさとこども園と交流会",
+    "link": "https://yonesato-ehp.blogspot.com/2026/06/blog-post_30.html",
+    "published": "2026-06-30T03:00:00+0000"
   },
   {
     "school_name": "世紀小学校",
@@ -3642,12 +3690,6 @@
     "published": "2026-06-01T08:14:00+0000"
   },
   {
-    "school_name": "湖山小学校",
-    "title": "こやまっこひろば",
-    "link": "https://koyama-ehp.blogspot.com/2026/06/blog-post.html",
-    "published": "2026-06-01T06:37:37+0000"
-  },
-  {
     "school_name": "日進小学校",
     "title": "１年生　通学路たんけん（生活科）に行きました",
     "link": "https://tnissin-ehp.blogspot.com/2026/05/blog-post_668.html",
@@ -4060,12 +4102,6 @@
     "title": "５／２６（火）　避難訓練",
     "link": "https://kyusyo-ehp.blogspot.com/2026/05/blog-post_27.html",
     "published": "2026-05-26T23:49:49+0000"
-  },
-  {
-    "school_name": "面影小学校",
-    "title": "",
-    "link": "https://omokage-ehp.blogspot.com/2026/05/blog-post_27.html",
-    "published": "2026-05-26T22:19:52+0000"
   },
   {
     "school_name": "用瀬小学校",
@@ -4642,12 +4678,6 @@
     "title": "笑って　走って　最高の一日（福部町民運動会・高等・閉会式）",
     "link": "https://fukubemirai-hp.blogspot.com/2026/05/blog-post_532.html",
     "published": "2026-05-19T03:47:48+0000"
-  },
-  {
-    "school_name": "河原中学校",
-    "title": "3年生で「とっとり学力・学習状況調査」が行われました",
-    "link": "https://kawachutopics.blogspot.com/2026/05/3_01535627692.html",
-    "published": "2026-05-19T02:53:35+0000"
   },
   {
     "school_name": "世紀小学校",
@@ -6034,12 +6064,6 @@
     "title": "身体測定",
     "link": "https://sanki-ehp.blogspot.com/2026/04/blog-post_13.html",
     "published": "2026-04-14T03:12:00+0000"
-  },
-  {
-    "school_name": "米里小学校",
-    "title": "発育測定",
-    "link": "https://yonesato-ehp.blogspot.com/2026/04/blog-post_14.html",
-    "published": "2026-04-14T00:42:00+0000"
   },
   {
     "school_name": "宮ノ下小学校",
@@ -7734,12 +7758,6 @@
     "published": "2025-10-30T23:50:00+0000"
   },
   {
-    "school_name": "美保小学校",
-    "title": "らっきょう農家さんとの交流（3年）",
-    "link": "https://miho-ehp.blogspot.com/2025/10/3.html",
-    "published": "2025-10-30T09:13:00+0000"
-  },
-  {
     "school_name": "千代南中学校",
     "title": "",
     "link": "https://sendais-jhp.blogspot.com/2025/10/blog-post_30.html",
@@ -7762,18 +7780,6 @@
     "title": "",
     "link": "https://sendais-jhp.blogspot.com/2025/10/blog-post_31.html",
     "published": "2025-10-29T04:00:00+0000"
-  },
-  {
-    "school_name": "美保小学校",
-    "title": "持続可能な社会を作ろう〜SDGsに取り組もう〜（5年）",
-    "link": "https://miho-ehp.blogspot.com/2025/10/sdgs5.html",
-    "published": "2025-10-29T00:25:00+0000"
-  },
-  {
-    "school_name": "美保小学校",
-    "title": "国際交流会⑤（4年）",
-    "link": "https://miho-ehp.blogspot.com/2025/10/4_29.html",
-    "published": "2025-10-29T00:22:00+0000"
   },
   {
     "school_name": "千代南中学校",
@@ -8170,11 +8176,5 @@
     "title": "第2回学校運営協議会",
     "link": "https://sikano-ryuhp.blogspot.com/2024/11/2.html",
     "published": "2024-11-27T06:01:00+0000"
-  },
-  {
-    "school_name": "鹿野学園",
-    "title": "表鷲の巣立ち式",
-    "link": "https://sikano-ryuhp.blogspot.com/2024/11/blog-post_23.html",
-    "published": "2024-11-23T05:22:00+0000"
   }
 ]
