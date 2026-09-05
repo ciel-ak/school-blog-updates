@@ -1,5 +1,23 @@
 [
   {
+    "school_name": "鹿野学園",
+    "title": "",
+    "link": "https://sikano-ryuhp.blogspot.com/2026/09/blog-post_05.html",
+    "published": "2026-09-05T07:35:31+0000"
+  },
+  {
+    "school_name": "青谷小学校",
+    "title": "健康な生活をするために（3年保健体育）",
+    "link": "https://aoya-ehp.blogspot.com/2026/09/3.html",
+    "published": "2026-09-05T05:38:42+0000"
+  },
+  {
+    "school_name": "北中学校",
+    "title": "運動会を開催しました(9/5)",
+    "link": "https://torin-jhp.blogspot.com/2026/09/95.html",
+    "published": "2026-09-05T05:31:15+0000"
+  },
+  {
     "school_name": "若葉台小学校",
     "title": "９月参観日（9/4)",
     "link": "https://wakaba-ehp.blogspot.com/2026/09/94.html",
@@ -184,6 +202,12 @@
     "title": "第2回　校内授業研究会",
     "link": "https://iwakura-e.blogspot.com/2026/09/2.html",
     "published": "2026-09-03T07:00:44+0000"
+  },
+  {
+    "school_name": "青谷小学校",
+    "title": "手洗いで洗濯をしよう(6年家庭科)",
+    "link": "https://aoya-ehp.blogspot.com/2026/09/6.html",
+    "published": "2026-09-03T05:55:00+0000"
   },
   {
     "school_name": "湖山小学校",
@@ -6300,12 +6324,6 @@
     "published": "2026-05-25T00:51:05+0000"
   },
   {
-    "school_name": "青谷小学校",
-    "title": "仲間と共に協力　ネバーギブアップ！　青谷っ子！",
-    "link": "https://aoya-ehp.blogspot.com/2026/05/blog-post_23.html",
-    "published": "2026-05-23T07:19:09+0000"
-  },
-  {
     "school_name": "大正小学校",
     "title": "令和８年度　春季運動会",
     "link": "https://taisyo-e.blogspot.com/2026/05/blog-post.html",
@@ -6396,12 +6414,6 @@
     "published": "2026-05-20T04:49:38+0000"
   },
   {
-    "school_name": "北中学校",
-    "title": "小中連絡協議会を開催しました(5/18)",
-    "link": "https://torin-jhp.blogspot.com/2026/05/518.html",
-    "published": "2026-05-19T07:30:34+0000"
-  },
-  {
     "school_name": "散岐小学校",
     "title": "運動会総練習",
     "link": "https://sanki-ehp.blogspot.com/2026/05/blog-post_18.html",
@@ -6412,12 +6424,6 @@
     "title": "運動会に向けて",
     "link": "https://tseiki-ehp.blogspot.com/2026/05/blog-post_19.html",
     "published": "2026-05-19T02:47:39+0000"
-  },
-  {
-    "school_name": "青谷小学校",
-    "title": "いよいよ運動会本番間近！！",
-    "link": "https://aoya-ehp.blogspot.com/2026/05/blog-post_306.html",
-    "published": "2026-05-18T10:42:03+0000"
   },
   {
     "school_name": "国府中学校",
@@ -8170,11 +8176,5 @@
     "title": "冬休み前全校集会",
     "link": "https://sikano-ryuhp.blogspot.com/2024/12/blog-post_25.html",
     "published": "2024-12-25T07:27:00+0000"
-  },
-  {
-    "school_name": "鹿野学園",
-    "title": "あいさつ運動",
-    "link": "https://sikano-ryuhp.blogspot.com/2024/12/blog-post_15.html",
-    "published": "2024-12-15T05:53:00+0000"
   }
 ]
