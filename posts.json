@@ -1,5 +1,53 @@
 [
   {
+    "school_name": "賀露小学校",
+    "title": "修学旅行に行きました！（6年生）　令和8年9月17-18日",
+    "link": "https://karo-hp.blogspot.com/2026/09/68917-18.html",
+    "published": "2026-09-24T04:01:56+0000"
+  },
+  {
+    "school_name": "河原第一小学校",
+    "title": "河一カフェ☕ OPEN!（５学年）",
+    "link": "https://kawaichinow.blogspot.com/2026/09/open_02113471762.html",
+    "published": "2026-09-24T04:00:00+0000"
+  },
+  {
+    "school_name": "末恒小学校",
+    "title": "太陽と影（３年生理科）",
+    "link": "https://suetune-ehp.blogspot.com/2026/09/blog-post_24.html",
+    "published": "2026-09-24T03:55:26+0000"
+  },
+  {
+    "school_name": "佐治小学校",
+    "title": "9/18　4年生用瀬小との交流",
+    "link": "https://saji-e.blogspot.com/2026/09/9184.html",
+    "published": "2026-09-24T03:25:37+0000"
+  },
+  {
+    "school_name": "佐治小学校",
+    "title": "9/18　3年生梨パフェづくり",
+    "link": "https://saji-e.blogspot.com/2026/09/9183.html",
+    "published": "2026-09-24T03:24:17+0000"
+  },
+  {
+    "school_name": "瑞穂小学校",
+    "title": "参観日 ～たくさんの方においでいただき、ありがとうございました～",
+    "link": "https://mizuho-ehp.blogspot.com/2026/09/blog-post_23.html",
+    "published": "2026-09-24T02:09:36+0000"
+  },
+  {
+    "school_name": "国府東小学校",
+    "title": "秋まき冬野菜の種まきを行いました",
+    "link": "https://kokufue-ehp.blogspot.com/2026/09/blog-post_24.html",
+    "published": "2026-09-24T01:11:00+0000"
+  },
+  {
+    "school_name": "日進小学校",
+    "title": "４年生　福祉体験学習を行いました（総合的な学習の時間）",
+    "link": "https://tnissin-ehp.blogspot.com/2026/09/blog-post_23.html",
+    "published": "2026-09-23T23:32:22+0000"
+  },
+  {
     "school_name": "北中学校",
     "title": "高校説明会を開催しました(9/17.18)",
     "link": "https://torin-jhp.blogspot.com/2026/09/91718.html",
@@ -1303,7 +1351,7 @@
   },
   {
     "school_name": "河原第一小学校",
-    "title": "河一カフェ ☕ OPEN！",
+    "title": "河一カフェ ☕ OPEN！（２学年）",
     "link": "https://kawaichinow.blogspot.com/2026/09/open.html",
     "published": "2026-09-07T01:00:00+0000"
   },
@@ -2886,12 +2934,6 @@
     "published": "2026-08-17T04:07:05+0000"
   },
   {
-    "school_name": "国府東小学校",
-    "title": "オンライン登校日でした",
-    "link": "https://kokufue-ehp.blogspot.com/2026/08/blog-post_880.html",
-    "published": "2026-08-17T03:57:01+0000"
-  },
-  {
     "school_name": "東中学校",
     "title": "８月１７日　駅伝部始動！！",
     "link": "https://torie-jhp.blogspot.com/2026/08/blog-post.html",
@@ -3198,18 +3240,6 @@
     "published": "2026-07-27T03:20:23+0000"
   },
   {
-    "school_name": "佐治小学校",
-    "title": "7/27　さじっ子道場2日目",
-    "link": "https://saji-e.blogspot.com/2026/07/7272.html",
-    "published": "2026-07-27T02:11:28+0000"
-  },
-  {
-    "school_name": "佐治小学校",
-    "title": "7/25　小中合同資源回収",
-    "link": "https://saji-e.blogspot.com/2026/07/725.html",
-    "published": "2026-07-27T02:10:00+0000"
-  },
-  {
     "school_name": "東郷小学校",
     "title": "東郷地区夏祭り2026",
     "link": "https://ttogo-ehp.blogspot.com/2026/07/2026.html",
@@ -3370,12 +3400,6 @@
     "title": "県総体の活躍",
     "link": "https://takakusa-jhp.blogspot.com/2026/07/blog-post_21.html",
     "published": "2026-07-21T09:33:14+0000"
-  },
-  {
-    "school_name": "末恒小学校",
-    "title": "夏休み宿題教室",
-    "link": "https://suetune-ehp.blogspot.com/2026/07/blog-post_21.html",
-    "published": "2026-07-21T04:48:26+0000"
   },
   {
     "school_name": "東中学校",
@@ -4284,12 +4308,6 @@
     "published": "2026-07-08T23:35:29+0000"
   },
   {
-    "school_name": "瑞穂小学校",
-    "title": "朝のさわやかタイム ～みんなで花壇の草取りにチャレンジ！～",
-    "link": "https://mizuho-ehp.blogspot.com/2026/07/blog-post_08.html",
-    "published": "2026-07-08T23:24:01+0000"
-  },
-  {
     "school_name": "西郷小学校",
     "title": "ジャマイカの陶芸家さんとの交流",
     "link": "https://ysaigo-ehp.blogspot.com/2026/07/blog-post.html",
@@ -4609,7 +4627,7 @@
   },
   {
     "school_name": "河原第一小学校",
-    "title": "河一カフェ☕　OPEN！",
+    "title": "河一カフェ☕ OPEN！（１学年）",
     "link": "https://kawaichinow.blogspot.com/2026/07/open.html",
     "published": "2026-07-03T09:30:00+0000"
   },
@@ -6030,12 +6048,6 @@
     "published": "2026-06-11T06:42:56+0000"
   },
   {
-    "school_name": "河原第一小学校",
-    "title": "４学年 水生生物調査",
-    "link": "https://kawaichinow.blogspot.com/2026/06/blog-post_11.html",
-    "published": "2026-06-11T06:11:37+0000"
-  },
-  {
     "school_name": "千代南中学校",
     "title": "",
     "link": "https://sendais-jhp.blogspot.com/2026/06/blog-post.html",
@@ -6250,12 +6262,6 @@
     "title": "第1回校内授業研究会",
     "link": "https://tseiki-ehp.blogspot.com/2026/06/1.html",
     "published": "2026-06-07T23:14:02+0000"
-  },
-  {
-    "school_name": "賀露小学校",
-    "title": "賀露校区民大運動会　開催　　令和8年6月7日",
-    "link": "https://karo-hp.blogspot.com/2026/06/867.html",
-    "published": "2026-06-07T07:17:05+0000"
   },
   {
     "school_name": "中ノ郷中学校",
@@ -6910,12 +6916,6 @@
     "title": "５／１３（水）民生児童委員の方によるあいさつ運動",
     "link": "https://kyusyo-ehp.blogspot.com/2026/05/blog-post_13.html",
     "published": "2026-05-13T04:26:00+0000"
-  },
-  {
-    "school_name": "日進小学校",
-    "title": "避難訓練（不審者対応）を行いました",
-    "link": "https://tnissin-ehp.blogspot.com/2026/05/blog-post_12.html",
-    "published": "2026-05-13T03:18:00+0000"
   },
   {
     "school_name": "散岐小学校",
