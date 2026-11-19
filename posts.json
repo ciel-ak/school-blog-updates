@@ -1,5 +1,71 @@
 [
   {
+    "school_name": "美保小学校",
+    "title": "戦争について学び、平和の大切さを考える",
+    "link": "https://miho-ehp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T10:21:19+0000"
+  },
+  {
+    "school_name": "南中学校",
+    "title": "後期中間テスト・学年末テストが行われました",
+    "link": "https://toris-jhp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T07:25:37+0000"
+  },
+  {
+    "school_name": "国府東小学校",
+    "title": "代表委員会で学校生活について話し合いました",
+    "link": "https://kokufue-ehp.blogspot.com/2026/11/blog-post_595.html",
+    "published": "2026-11-19T06:08:24+0000"
+  },
+  {
+    "school_name": "中ノ郷小学校",
+    "title": "5、6年生読書月間の取組　　〜中ノ郷一座の竹取物語〜",
+    "link": "https://nakanogo-ehp.blogspot.com/2026/11/56.html",
+    "published": "2026-11-19T05:38:53+0000"
+  },
+  {
+    "school_name": "国府東小学校",
+    "title": "３年生が福祉の学習で車いす体験をしました",
+    "link": "https://kokufue-ehp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T05:37:27+0000"
+  },
+  {
+    "school_name": "河原第一小学校",
+    "title": "なかよしタイム",
+    "link": "https://kawaichinow.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T05:31:59+0000"
+  },
+  {
+    "school_name": "湖山小学校",
+    "title": "落ち葉",
+    "link": "https://koyama-ehp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T05:30:21+0000"
+  },
+  {
+    "school_name": "末恒小学校",
+    "title": "学習も一生懸命",
+    "link": "https://suetune-ehp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T04:27:18+0000"
+  },
+  {
+    "school_name": "米里小学校",
+    "title": "４年　アスリート全国学校派遣プロジェクト",
+    "link": "https://yonesato-ehp.blogspot.com/2026/11/blog-post_19.html",
+    "published": "2026-11-19T04:04:41+0000"
+  },
+  {
+    "school_name": "河原中学校",
+    "title": "2年1組で調理実習が行われました",
+    "link": "https://kawachutopics.blogspot.com/2026/11/21.html",
+    "published": "2026-11-19T03:46:15+0000"
+  },
+  {
+    "school_name": "浜村小学校",
+    "title": "【NEW】校内に楽しい仕掛けが！おいも、おいしかったよ1年生　他",
+    "link": "https://hamamura-ehp.blogspot.com/2026/11/new1.html",
+    "published": "2026-11-19T03:08:40+0000"
+  },
+  {
     "school_name": "世紀小学校",
     "title": "九九ボランティアの皆さん、ありがとうございます！",
     "link": "https://tseiki-ehp.blogspot.com/2026/11/blog-post_19.html",
@@ -409,7 +475,7 @@
   },
   {
     "school_name": "河原第一小学校",
-    "title": "クラブ活動",
+    "title": "クラブ活動を行いました",
     "link": "https://kawaichinow.blogspot.com/2026/11/blog-post.html",
     "published": "2026-11-13T07:30:00+0000"
   },
@@ -2844,12 +2910,6 @@
     "published": "2026-10-16T05:50:54+0000"
   },
   {
-    "school_name": "湖山小学校",
-    "title": "５年生湖山池漁業協同組合での学習",
-    "link": "https://koyama-ehp.blogspot.com/2026/10/blog-post_235.html",
-    "published": "2026-10-16T05:40:06+0000"
-  },
-  {
     "school_name": "米里小学校",
     "title": "２年　生活科見学",
     "link": "https://yonesato-ehp.blogspot.com/2026/10/blog-post_16.html",
@@ -3288,12 +3348,6 @@
     "published": "2026-10-14T01:20:08+0000"
   },
   {
-    "school_name": "末恒小学校",
-    "title": "後期スタート",
-    "link": "https://suetune-ehp.blogspot.com/2026/10/blog-post_14.html",
-    "published": "2026-10-14T01:17:25+0000"
-  },
-  {
     "school_name": "米里小学校",
     "title": "後期始業式",
     "link": "https://yonesato-ehp.blogspot.com/2026/10/blog-post_14.html",
@@ -3714,12 +3768,6 @@
     "published": "2026-10-08T08:03:24+0000"
   },
   {
-    "school_name": "国府東小学校",
-    "title": "１年生が、校外学習で「真教寺公園」と「わらべ館」に行ってきました",
-    "link": "https://kokufue-ehp.blogspot.com/2026/10/blog-post_08.html",
-    "published": "2026-10-08T07:52:27+0000"
-  },
-  {
     "school_name": "佐治小学校",
     "title": "10/8　さつまいも堀り",
     "link": "https://saji-e.blogspot.com/2026/10/108.html",
@@ -3868,12 +3916,6 @@
     "title": "４年生　東心会防災学習",
     "link": "https://iwakura-e.blogspot.com/2026/10/blog-post.html",
     "published": "2026-10-07T01:15:35+0000"
-  },
-  {
-    "school_name": "国府東小学校",
-    "title": "２、3年生が鳥取砂丘で仲間とつながり、自然の魅力を学びました",
-    "link": "https://kokufue-ehp.blogspot.com/2026/10/3.html",
-    "published": "2026-10-07T00:17:59+0000"
   },
   {
     "school_name": "湖南学園",
@@ -4138,12 +4180,6 @@
     "title": "１日目の活躍",
     "link": "https://takakusa-jhp.blogspot.com/2026/10/blog-post.html",
     "published": "2026-10-02T03:21:14+0000"
-  },
-  {
-    "school_name": "河原中学校",
-    "title": "3年生で金融教室が行われました",
-    "link": "https://kawachutopics.blogspot.com/2026/10/3.html",
-    "published": "2026-10-02T01:30:10+0000"
   },
   {
     "school_name": "東郷小学校",
@@ -4728,12 +4764,6 @@
     "published": "2026-09-24T23:52:47+0000"
   },
   {
-    "school_name": "中ノ郷小学校",
-    "title": "百人一首集会",
-    "link": "https://nakanogo-ehp.blogspot.com/2026/09/blog-post_25.html",
-    "published": "2026-09-24T23:33:03+0000"
-  },
-  {
     "school_name": "浜坂小学校",
     "title": "得意なこと発表会がありました！",
     "link": "https://hamasaka-ehp.blogspot.com/2026/09/blog-post_24.html",
@@ -4879,7 +4909,7 @@
   },
   {
     "school_name": "桜ヶ丘中学校",
-    "title": "R8 「第2回学校運営協議会」がありました",
+    "title": "R8 「第２回学校運営協議会」がありました",
     "link": "https://sakura-jhp.blogspot.com/2026/09/r8-2.html",
     "published": "2026-09-18T07:34:46+0000"
   },
@@ -5368,12 +5398,6 @@
     "title": "2年生　野菜パーティー",
     "link": "https://iwakura-e.blogspot.com/2026/09/2_0550290591.html",
     "published": "2026-09-10T22:37:14+0000"
-  },
-  {
-    "school_name": "浜村小学校",
-    "title": "【NEW】３年生「１キロぴったり選手権」、  ニコラス先生と夏休みインタビュー（６年生）など",
-    "link": "https://hamamura-ehp.blogspot.com/2026/09/new11.html",
-    "published": "2026-09-10T11:05:05+0000"
   },
   {
     "school_name": "浜坂小学校",
@@ -6444,12 +6468,6 @@
     "published": "2026-07-17T02:26:58+0000"
   },
   {
-    "school_name": "米里小学校",
-    "title": "前期前半終了",
-    "link": "https://yonesato-ehp.blogspot.com/2026/07/blog-post_17.html",
-    "published": "2026-07-17T01:31:25+0000"
-  },
-  {
     "school_name": "久松小学校",
     "title": "７／１７　夏休み前集会",
     "link": "https://kyusyo-ehp.blogspot.com/2026/07/blog-post_17.html",
@@ -6484,12 +6502,6 @@
     "title": "夏休みを前に～交通安全教室～",
     "link": "https://konan-hp.blogspot.com/2026/07/blog-post_16.html",
     "published": "2026-07-15T23:55:23+0000"
-  },
-  {
-    "school_name": "河原第一小学校",
-    "title": "トリシャ先生、ありがとうございました！",
-    "link": "https://kawaichinow.blogspot.com/2026/07/blog-post_15.html",
-    "published": "2026-07-15T08:52:45+0000"
   },
   {
     "school_name": "千代南中学校",
@@ -6598,12 +6610,6 @@
     "title": "トリシャ先生、ありがとう！",
     "link": "https://sanki-ehp.blogspot.com/2026/07/blog-post_08.html",
     "published": "2026-07-09T01:42:14+0000"
-  },
-  {
-    "school_name": "美保小学校",
-    "title": "国際交流会（モンゴル）",
-    "link": "https://miho-ehp.blogspot.com/2026/07/blog-post_09.html",
-    "published": "2026-07-09T00:17:45+0000"
   },
   {
     "school_name": "青谷中学校",
@@ -6760,12 +6766,6 @@
     "title": "PTA資源回収",
     "link": "https://iwakura-e.blogspot.com/2026/07/pta.html",
     "published": "2026-07-05T23:07:11+0000"
-  },
-  {
-    "school_name": "南中学校",
-    "title": "すべての学年で「教育相談」を行いました",
-    "link": "https://toris-jhp.blogspot.com/2026/07/blog-post_03.html",
-    "published": "2026-07-03T07:38:51+0000"
   },
   {
     "school_name": "散岐小学校",
